@@ -34,7 +34,7 @@ print(np.max(np.abs(audio), axis=0))
 
 print("\nPlaying recording...")
 
-sd.play(audio, samplerate=SAMPLE_RATE, device=DEVICE)
+sd.play(audio, samplerate=SAMPLE_RATE, device=10)
 sd.wait()
 
 print("Playback finished!")
